@@ -18,7 +18,7 @@ class AgentState(TypedDict, total=False):
 
 workflow = StateGraph(AgentState)
 
-# 🔥 FIX: rename nodes (DO NOT match state keys)
+
 
 workflow.add_node("analysis_node", analyze_trend)
 workflow.add_node("viral_node", find_viral_angle)
