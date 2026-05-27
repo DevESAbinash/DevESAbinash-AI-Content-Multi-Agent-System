@@ -136,7 +136,7 @@ All agents mutate the shared `AgentState`.
 - LLM model used by all agents: `openai/gpt-3.5-turbo` (via OpenRouter).
 
 ## Output
-- you can run this by putting command: uvicorn backend.api.main:api --reload --port 8000
+- you can run this by putting command: `uvicorn backend.api.main:api --reload --port 8000`
 
 - Single topic: returned directly from `/generate`
 - Batch generation: stored in `outputs/content_results.json`
